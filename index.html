@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Business Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #ffffff;
+      color: #222;
+    }
+
+    /* HERO / HOME */
+    .hero {
+      padding: 90px 20px;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    .hero a {
+      display: inline-block;
+      margin: 5px;
+      padding: 12px 22px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+
+    .btn-dark {
+      background: #000;
+      color: #fff;
+    }
+
+    .btn-outline {
+      border: 2px solid #000;
+      color: #000;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 24px;
+    }
+
+    /* PRODUCTS */
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      border: 1px solid #eee;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .card p {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .card span {
+      font-size: 14px;
+      color: #777;
+    }
+
+    /* WHATSAPP */
+    .whatsapp {
+      display: block;
+      width: fit-content;
+      margin: 30px auto;
+      padding: 12px 22px;
+      background: #25d366;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #eee;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HOME -->
+<div class="hero">
+  <h1>Your Brand Name</h1>
+  <p>Patches • Laces • Borders • Boutique Materials</p>
+
+  <a href="#products" class="btn-dark">View Products</a>
+  <a href="https://wa.me/91XXXXXXXXXX" class="btn-outline">WhatsApp Us</a>
+</div>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <h2>Our Products</h2>
+
+  <div class="products">
+    <div class="card">
+      <img src="https://via.placeholder.com/300">
+      <p>Patches</p>
+      <span>Contact for price</span>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300">
+      <p>Laces</p>
+      <span>Contact for price</span>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300">
+      <p>Borders</p>
+      <span>Contact for price</span>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300">
+      <p>Boutique Items</p>
+      <span>Contact for price</span>
+    </div>
+  </div>
+
+  <a class="whatsapp" href="https://wa.me/91XXXXXXXXXX">
+    Order on WhatsApp
+  </a>
+</section>
+
+<!-- ABOUT -->
+<section>
+  <h2>About</h2>
+  <p style="text-align:center; max-width:700px; margin:auto;">
+    We deal in quality patches, laces, borders, and boutique materials.
+    Contact us for product details and orders.
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section>
+  <h2>Contact</h2>
+  <p style="text-align:center;">
+    Message us directly on WhatsApp for enquiries and orders.
+  </p>
+
+  <a class="whatsapp" href="https://wa.me/91XXXXXXXXXX">
+    Chat on WhatsApp
+  </a>
+</section>
+
+<footer>
+  © 2025 Your Business. All rights reserved.
+</footer>
+
+</body>
+</html>
